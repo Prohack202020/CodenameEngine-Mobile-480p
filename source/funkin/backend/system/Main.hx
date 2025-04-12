@@ -41,8 +41,8 @@ class Main extends Sprite
 	public static var scaleMode:FunkinRatioScaleMode;
 	public static var framerateSprite:funkin.backend.system.framerate.Framerate;
 
-	var gameWidth:Int = 1280; // Width of the game in pixels (might be less / more in actual pixels).
-	var gameHeight:Int = 720; // Height of the game in pixels (might be less / more in actual pixels).
+	var gameWidth:Int = 854; // Width of the game in pixels (might be less / more in actual pixels).
+	var gameHeight:Int = 480; // Height of the game in pixels (might be less / more in actual pixels).
 	var skipSplash:Bool = true; // Whether to skip the flixel splash screen that appears in release mode.
 	var startFullscreen:Bool = false; // Whether to start the game in fullscreen on desktop targets
 
